@@ -1,0 +1,151 @@
+/* Menu */
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #1e1f28;
+    color: black;
+    width: 248px;
+    max-height: 100vh;
+    position: relative;
+}
+
+/* Ícone do Sistema */
+.system-icon img{
+    filter: brightness(0) invert(1);
+    width: 28px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Usuário Atual */
+.current-user {
+    font-size: 0.8rem;
+    width: 200px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.current-user img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details h3,
+.user-details h5 {
+    margin: 0;
+    padding: 0;
+}
+  
+/* Botões do Menu (Posição) */
+.menu-items {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+/* Botões do Menu (Estilo) */
+.button-menu-expand {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button-menu {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button-menu-expand img {
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.button-menu img {
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.button-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.button-menu-expand:hover {
+    background-color: #634490;
+}
+
+.button-menu:hover {
+    background-color: #634490;
+}
+
+/*Botão Logout*/
+.button-logout {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+}
+
+.button-logout img {
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.button-logout:hover {
+    background-color: #634490;
+}
+

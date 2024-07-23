@@ -1,0 +1,106 @@
+.dashboard-container {
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+/* Cabeçalho */
+.dashboard-header {
+    text-align: left;
+}
+  
+.dashboard-header h1 {
+    width: 400px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #8A8B82;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  
+.dashboard-header h2 {
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Informações da Máquina */
+.dashboard-container table{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E9E9EB;
+    color: #010101;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dashboard-container th{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #1E1F28;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.dashboard-container thead {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dashboard-container td {
+    color: #000;
+    background-color: #E9E9EB;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+}
+
+.dashboard-gauge table{
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.dashboard-gauge td{
+    width: 100%;
+    height: 100%;
+    color: #000;
+    background-color: #E9E9EB;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.gauge-container {
+    background-color: #fff;
+    display: inline-flex;
+    margin: 20px 50px;
+    width: 400px; /* Set gauge container width to fill the table cell */
+    height: 100%; /* Set gauge container height to fill the table cell */
+    position: relative; /* Permite o posicionamento relativo dos elementos filhos */
+    justify-content: center;
+}
+   
+.gauge-container:nth-child(1) {
+    transform: scale(1); /* Aplica a transformação de escala ao contêiner */
+}
+   
+.gauge-container:nth-child(2) {
+    transform: scale(1); /* Aplica a transformação de escala ao contêiner */
+}

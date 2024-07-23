@@ -1,0 +1,16 @@
+{
+    "sensores": {
+        "data": [
+            {
+                "id": "129893002023",
+                "name": "S1",
+                "numeroSerie": "0041",
+                "fabricante": "Romi SA",
+                "tipo": "Temperatura",
+                "parametroMin": "20",
+                "parametroMax": "180",
+                "maquinaId": "129893002023"
+            }
+        ]
+    }
+}

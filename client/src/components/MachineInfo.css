@@ -1,0 +1,63 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.view-header {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.view-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.view-close {
+    position: relative;
+    left: 1005px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos para a máquina desabilitada */
+.imagem-preview.disabled img {
+    filter: grayscale(100%);
+    /* Outros estilos para representar visualmente a máquina desabilitada */
+}
+
+.desabilitar-button {
+    padding: 8px 16px;
+    bottom: 100px;
+    right: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1960E9; /* Cor atualizada para #1960E9 */
+    color: white; /* Cor do texto */
+    font-family: "Open Sans", normal;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.desabilitar-button:hover {
+    background-color: red;
+    color: #FFF;
+}

@@ -1,0 +1,150 @@
+.usuario-container {
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+}
+  
+.usuario-container h1 {
+    width: 400px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #8A8B82;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  
+.usuario-container h2 {
+    width: 433px;
+    height: 34px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-and-search {
+    display: flex;
+    align-items: center;
+}
+
+.button-cadastro-user {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    background-color: #1960E9;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+.button-cadastro-user img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.usuario-container input[type="text"] {
+    padding: 0px 40px 0px 50px;
+    border-radius: 40px;
+    width: 480px;
+    height: 40px;
+    color: #7e7e7e;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    background-color: #fff;
+    background-image: url('../../public/assets/img/Search.png');
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+    background-size: 24px 24px;
+}
+
+.usuarios-lista {
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.usuario-item {
+    margin-bottom: 20px;
+}
+
+.usuario-box {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.user-icon {
+    width: 56px;
+    height: 56px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.usuario-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nome-matricula {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo-setor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+.users-nome {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.users-funcao {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.users-setor {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.users-predio {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.usuario-buttons img{
+    width: 24px;
+    height: auto;
+    margin-right: 30px;
+    cursor: pointer;
+}

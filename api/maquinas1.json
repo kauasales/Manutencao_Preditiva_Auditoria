@@ -1,0 +1,22 @@
+[
+  {
+    "maquinaId": "dee7f96c-2938-4141-9f98-4821b8b67c8d",
+    "nome": "Maquina Injetora",
+    "data": "12-01-2021",
+    "modelo": "2005",
+    "fabricante": "Toyota",
+    "numeroSerie": "129893002023",
+    "localSetor": "X",
+    "sensores": []
+  },
+  {
+    "id": "87d396e2-fa3a-437d-b404-234ccc12d2a0",
+    "name": "Máquina Sabor",
+    "dataInstalacao": "12-01-2021",
+    "modelo": "2005",
+    "fabricante": "Toyota",
+    "numeroSerie": "129893002023",
+    "setor": "X",
+    "sensores": []
+  }
+]

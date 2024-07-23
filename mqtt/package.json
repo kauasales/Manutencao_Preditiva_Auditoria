@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^5.3.6"
+  }
+}

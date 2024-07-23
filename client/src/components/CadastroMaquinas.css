@@ -1,0 +1,314 @@
+/* Tela de Cadastro */
+.cadastro-maquinas {
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+/* Cabeçalho */
+.cadastro-maquinas-header {
+    text-align: left;
+    overflow-y: auto;
+}
+
+.cadastro-maquinas-header h1 {
+    width: 400px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #8A8B82;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cadastro-maquinas-header h2 {
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cadastro-maquinas-header img {
+    width: 140px;
+    height: 37px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+/* Tabela Maquina*/
+.cadastro-maquina-container table{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E9E9EB;
+    color: #010101;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cadastro-maquina-container th{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #1E1F28;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.cadastro-maquina-container thead {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cadastro-maquina-container td {
+    color: #000;
+    background-color: #E9E9EB;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+}
+
+/* Tabela Sensor*/
+.cadastro-sensor-container table{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E9E9EB;
+    color: #010101;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cadastro-sensor-container th{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #1E1F28;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.cadastro-sensor-container thead {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cadastro-sensor-container td {
+    color: #000;
+    background-color: #E9E9EB;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+}
+
+/* Tabela Planta*/
+.formulario-planta table{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E9E9EB;
+    color: #010101;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.formulario-planta th{
+    background-color: #1E1F28;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.formulario-planta thead {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formulario-planta td {
+    background-color: #E9E9EB;
+    padding: 20px;
+}
+
+/* Tamanho dos inputs */
+.cadastro-maquina-input,
+.cadastro-sensor-input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+/* Tamanho dos inputs (Individual - Máquina) */
+.cadastro-maquina-input[name="nome"],
+.cadastro-maquina-input[name="numSerie"]
+{
+    width: 380px;
+}
+
+.cadastro-maquina-input[name="dataInstalacao"],
+.cadastro-maquina-input[name="modelo"],
+.cadastro-maquina-input[name="fabricante"],
+.cadastro-maquina-input[name="setor"]
+{
+    width: 180px;
+}
+
+/* Tamanho dos inputs (Individual - Sensor) */
+.cadastro-sensor-input[name="id"],
+.cadastro-sensor-input[name="numeroSerieSensor"]
+{
+    width: 380px;
+}
+
+.cadastro-sensor-input[name="numAuto"]
+{
+    width: 80px;
+    background-color: #BBB7B7;
+}
+
+.cadastro-sensor-input[name="fabricanteSensor"],
+.cadastro-sensor-input[name="tipo"]
+{
+    width: 180px;
+}
+
+.cadastro-sensor-input[name="sensorMin"],
+.cadastro-sensor-input[name="sensorMax"]
+{
+    width: 80px;
+}
+
+.cadastro-planta-input[name='planta']
+{
+    width: 680px;
+    height: 320px;
+}
+
+/* Botão Adicionar Sensor */
+.button-cadastro-sensor {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 40px;
+    background-color: #1960E9;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.button-cadastro-sensor img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Botão Próximo */
+.button-next-form {
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    background-color: #1960E9;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    bottom: 3%;
+    right: 2.4%;
+}
+
+.button-next-form:hover {
+    background-color: #b8b8b8;
+    color: #ffffff;
+}
+
+/* Botão Cancelar */
+.button-cancel-form {
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    background-color: #68686800;
+    color: black;
+    border: 1px none #686868;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    bottom: 3%;
+    right: 10%;
+}
+
+.button-cancel-form:hover {
+    background-color: #b8b8b8;
+    color: #ffffff;
+}
+
+/* Botão Planta Baixa */
+.upload-button {
+    max-width: 680px;
+    max-height: 320px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upload-button input[type='file'] {
+    display: none;
+}
+
+/* Container Planta Baixa */
+.planta-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+/* Imagem Planta Baixa */
+.imagem-preview img {
+    max-width: 700px;
+    max-height: 300px;
+}

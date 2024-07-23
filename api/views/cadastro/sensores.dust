@@ -1,0 +1,18 @@
+{>"layout/layout" /}
+
+{<body}
+<div class="container">
+    <h2>Lista de Sensores Cadastrados</h2>
+    <ul>
+        {#sensores}
+            <li>
+                <strong>Nome:</strong> {nome}, 
+                <strong>Tipo:</strong> {tipo}, 
+                <strong>Max Temp:</strong> {maxTemp}, 
+                <strong>Min Temp:</strong> {minTemp}
+            </li>
+        {/sensores}
+    </ul>
+    <a class="btn btn-default" href="/">Voltar</a>
+</div>
+{/body}

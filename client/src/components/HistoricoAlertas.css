@@ -1,0 +1,158 @@
+.historico-alertas {
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+.historico-header {
+  text-align: left;
+}
+
+.historico-header h1 {
+  width: 400px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #8A8B82;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.historico-header h2 {
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.historico-item {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  height: 140px;
+  background-color: #E9E9EB;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  position: relative;
+}
+
+.historico-item strong {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.machine-icon {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -68px;
+  z-index: 1;
+}
+
+.alert-section {
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  background-color: #D9D9D9;
+  padding: 5px;
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.alert-section img{
+  vertical-align: -2px;
+  transform: rotate(20deg);
+  margin-right: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.alert-details {
+  color: #686868;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.historico-time {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.filtro-container{
+  color: #010101;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#filtro-tempo {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding-inline-start: 10px;
+  border-radius: 4px;
+  appearance: none;
+  background-color: #E9E9EB;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  height: 32px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background-image: url('../../public/assets/img/ArrowBlack.png');
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 24px 24px;
+}
+
+#filtro-tempo option {
+  font-weight: 400;
+}
+
+#filtro-tempo option:checked {
+  font-weight: 600;
+  background-color: #9575BE;
+}
+
+.current-time h3{
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+
+.historico-item.maintenance-border {
+  border-left: 98px solid #E19E2C;
+}
+
+.historico-item.high-border {
+  border-left: 98px solid #E4594D;
+}
+
+.historico-item.low-border {
+  border-left: 98px solid #1960E9;
+}

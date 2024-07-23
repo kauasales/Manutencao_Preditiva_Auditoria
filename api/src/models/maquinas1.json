@@ -1,0 +1,22 @@
+[
+  {
+    "maquinaId": "ff862be1-bf3c-4868-9608-0b707605f756",
+    "nome": "Maquina Injetora",
+    "data": "12-01-2021",
+    "modelo": "2005",
+    "fabricante": "Toyota",
+    "numeroSerie": "129893002023",
+    "localSetor": "X",
+    "sensores": []
+  },
+  {
+    "id": "f5b20963-31f8-4ca0-91ce-b494351b61c0",
+    "name": "Máquina 123",
+    "dataInstalacao": "12-01-2021",
+    "modelo": "2005",
+    "fabricante": "Toyota",
+    "numeroSerie": "129893002023",
+    "setor": "X",
+    "sensores": []
+  }
+]

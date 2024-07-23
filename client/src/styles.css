@@ -1,0 +1,38 @@
+@import './components/Menu.css';
+@import './components/CadastroMaquinas.css';
+@import './components/MachinePage.css';
+@import './components/MachineInfo.css';
+@import './components/MachineOverview.css';
+@import './components/HistoricoAlertas.css';
+@import './components/Usuarios.css';
+@import './components/Relatorio.css';
+@import './components/Login.css';
+@import './components/DashboardMaquina.css';
+@import 'assets/fonts/fonts.css';
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: auto;
+  flex: 1;
+  padding: 0px;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}

@@ -1,0 +1,159 @@
+.popup {
+    position: relative;
+    z-index: 1001; /* Garante que o popup esteja na frente do fundo */
+    width: 580px;
+    height: 280px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-inner {
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF; /* Cor de fundo branca */
+    color: black; /* Cor do texto */
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.popup-inner .message {
+    margin-bottom: 16px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.popup-inner .buttons {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 8px; /* Define a distância entre os botões */
+    width: 100%; /* Garante que os botões ocupem toda a largura disponível */
+}
+
+.popup-inner .cancel-btn,
+.popup-inner .disable-btn {
+    width: 120px; /* Define a largura dos botões */
+    height: 40px; /* Define a altura dos botões */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-inner .cancel-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #686868;
+    border-radius: 20px;
+    border-style: solid;
+    color: #686868;
+    font-family: "Open Sans", normal;
+    font-size: 16px;    
+    line-height: normal;
+}
+.cancel-btn:hover {
+    background-color: #1960e9;
+    color: #FFF;
+}
+
+.popup-inner .disable-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1960E9; /* Cor atualizada para #1960E9 */
+    color: white; /* Cor do texto */
+    font-family: "Open Sans", normal;
+    font-size: 16px;
+    line-height: normal;
+}
+.disable-btn:hover {
+    background-color: red;
+    color: #FFF;
+}
+
+.popup-inner .message {
+    margin-bottom: 16px;
+    text-align: center; /* Centraliza o texto */
+    font-size: 20px; /* Ajusta o tamanho da fonte */
+    color: #333; /* Ajusta a cor do texto */
+}
+
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo preta com 50% de transparência */
+    z-index: 1000; /* Garante que o fundo esteja atrás do popup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos existentes */
+
+.success-popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-popup {
+    position: relative;
+    z-index: 1001;
+    width: 615px;
+    height: 436px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success-message {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}

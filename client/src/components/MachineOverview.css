@@ -1,0 +1,243 @@
+  .machine-overview {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+  }
+  
+  .machine-overview-header {
+    text-align: left;
+  }
+  
+  .machine-overview h1 {
+    color: #8A8B82;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .machine-overview h2 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+   /* Seletor de Setor */
+  .sector-selection {
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .sector-arrow-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sector-arrow-next {
+    transform: scaleX(-1);
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sector-arrow-prev:hover {
+    filter: brightness(0%);
+  }
+
+  .sector-arrow-next:hover {
+    filter: brightness(0%);
+  }
+  
+   /* Alertas*/
+  .alerts {
+    width: 240px;
+    height: 550px;
+    background-color: #1E1F28;
+    border-radius: 8px;
+    position: absolute;
+    top: 24%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.alerts h2 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+  .alerts h2 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .alerts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .alert-item {
+    width: 184px;
+    height: 64px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  
+  .alert-item h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+  }
+  
+  .alert-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .alert-info{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .alert-info img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    align-self: flex-start;
+    vertical-align: top;
+}
+
+  .alert-info h3{
+    align-items: center;
+    justify-content: center;
+  }
+  
+   /* Máquinas */
+   .machine-list {
+    width: 900px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .machine-item {
+    width: 380px;
+    height: 200px;
+    background-color: #E9E9EB;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .machine-item h3 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+  .machine-item h3 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: flex-start;
+    vertical-align: -2px;
+  }
+
+  .machine-item p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+
+  .machine-state {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 7px;
+  }  
+  
+  /* Cores para as condições das máquinas */
+  .machine-item.good {
+    border-left: 16px solid #44BF86
+  }
+  
+  .machine-item.warning {
+    border-left: 16px solid #E19E2C
+  }
+  
+  .machine-item.error {
+    border-left: 16px solid #E4594D
+  }
+  
+  /* Cores para o estado das máquinas */
+  .machine-state.good {
+    width: 269px;
+    height: 44px;
+    background-color: #ffffff;
+  }
+  
+  .machine-state.warning {
+    width: 165px;
+    height: 44px;
+    background-color: #E19E2C;
+  }
+  
+  .machine-state.error {
+    width: 165px;
+    height: 44px;
+    background-color: #E4594D;
+  }
+
+  /* Cores para os alertas */
+  .alert-item.good {
+    border-left: 16px solid #44BF86
+  }
+  
+  .alert-item.warning {
+    border-left: 16px solid #E19E2C
+  }
+  
+  .alert-item.error {
+    border-left: 16px solid #E4594D
+  }
+  

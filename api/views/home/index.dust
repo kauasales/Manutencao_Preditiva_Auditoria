@@ -1,0 +1,17 @@
+{>"layout/layout" /} 
+
+{<body}
+
+    <div class="container">
+        <br />
+
+        <div class="row">
+            <a class="btn btn-default backButton" href="/cadastro">Cadastrar Máquina</a>
+        </div>
+
+        <div class="row">
+            <p> Página </p>
+        </div>
+    </div>
+
+{/body}

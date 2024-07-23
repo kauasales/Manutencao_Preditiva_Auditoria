@@ -1,0 +1,141 @@
+.machine-page-container {
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+.machine-page-container h1 {
+  width: 400px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #8A8B82;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.machine-page-container h2 {
+  width: 433px;
+  height: 34px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.machine-page-container h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.machine-page-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.machine-page-container th,
+.machine-page-container td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.machine-page-container th {
+  padding: 0px 15px;
+  background-color: #1E1F28;
+  color: #fff;
+  width: 240px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.machine-page-container td {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.machine-page-container tr:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
+.machine-page-container tr:nth-child(odd) {
+  background-color: #E9E9EB;
+}
+
+.button-cadastro {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 40px;
+  background-color: #1960E9;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button-cadastro img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.machine-page-container input[type="text"] {
+  padding: 0px 40px 0px 50px;
+  border-radius: 40px;
+  width: 480px;
+  height: 40px;
+  color: #7e7e7e;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url('../../public/assets/img/Search.png');
+  background-repeat: no-repeat;
+  background-position: 3% 50%;
+  background-size: 24px 24px;
+}
+
+.machine-page-container .icon-eye {
+  align-items: flex-start;
+  width: 24px;
+  height: auto;
+  margin-right: 40px;
+  position: relative;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.machine-page-container .icon-edit {
+  align-items: flex-start;
+  width: 24px;
+  height: auto;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.button-and-search-container {
+  display: flex;
+  align-items: center;
+}
